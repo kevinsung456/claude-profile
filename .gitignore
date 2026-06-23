@@ -1,0 +1,24 @@
+# ===== OS 생성 파일 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 에디터 / IDE =====
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Node / Tailwind CLI (Phase 6 이후 빌드 전환 대비) =====
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+
+# ===== 로그 / 임시 =====
+*.log
+*.tmp
+.cache/
+
+# ===== 별도 프로젝트: todo 앱은 자체 Git 저장소로 관리 =====
+todo/
