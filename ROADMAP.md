@@ -84,10 +84,10 @@ resume/
 
 ### Phase 6. 마무리 & 배포
 - [ ] 반응형 / 크로스 브라우저 점검
-- [ ] 접근성(alt 텍스트, 시맨틱 태그) 점검
-- [ ] SEO 메타 태그 (`title`, `description`, OG 태그)
+- [x] 접근성(장식 요소 `aria-hidden`, 프로필 SVG `role`/`aria-label`, `prefers-reduced-motion`) 점검
+- [x] SEO 메타 태그 (`title`, `description`, OG·Twitter 카드, favicon, `theme-color`, `canonical`)
 - [ ] Lighthouse 성능 점검
-- [ ] GitHub Pages / Netlify / Vercel 배포
+- [ ] GitHub Pages / Netlify / Vercel 배포 *(배포 도메인 확정 후 `og:url`·`og:image`·`canonical` 의 `example.com` 교체 필요)*
 
 ---
 
