@@ -87,7 +87,7 @@ resume/
 - [x] 접근성(장식 요소 `aria-hidden`, 프로필 SVG `role`/`aria-label`, `prefers-reduced-motion`) 점검
 - [x] SEO 메타 태그 (`title`, `description`, OG·Twitter 카드, favicon, `theme-color`, `canonical`)
 - [ ] Lighthouse 성능 점검
-- [ ] GitHub Pages / Netlify / Vercel 배포 *(배포 도메인 확정 후 `og:url`·`og:image`·`canonical` 의 `example.com` 교체 필요)*
+- [x] GitHub Pages 배포 (Actions 워크플로) → <https://kevinsung456.github.io/claude-profile/> · SEO 메타 URL 실제 도메인 반영 완료
 
 ---
 
