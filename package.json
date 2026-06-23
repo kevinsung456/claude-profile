@@ -1,0 +1,13 @@
+{
+  "name": "claude-profile",
+  "version": "1.0.0",
+  "description": "1페이지 개발자 웹 이력서 (정적 사이트)",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./css/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

@@ -19,12 +19,17 @@
   <meta property="og:description" content="웹 프론트엔드 개발자 홍길동의 온라인 이력서" />
   <meta property="og:locale" content="ko_KR" />
   <meta property="og:url" content="https://kevinsung456.github.io/claude-profile/" />
-  <meta property="og:image" content="https://kevinsung456.github.io/claude-profile/assets/og-image.svg" />
+  <meta property="og:image" content="https://kevinsung456.github.io/claude-profile/assets/og-image.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="홍길동 - Frontend Developer" />
 
   <!-- Twitter 카드 -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="홍길동 | Frontend Developer" />
   <meta name="twitter:description" content="웹 프론트엔드 개발자 홍길동의 온라인 이력서" />
+  <meta name="twitter:image" content="https://kevinsung456.github.io/claude-profile/assets/og-image.png" />
 
   <!-- 정규 URL -->
   <link rel="canonical" href="https://kevinsung456.github.io/claude-profile/" />
@@ -34,28 +39,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
 
-  <!-- Tailwind CSS (CDN) -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          fontFamily: {
-            heading: ['Syne', 'sans-serif'],
-            body: ['DM Sans', 'sans-serif'],
-          },
-          colors: {
-            brand: {
-              DEFAULT: '#e85d3a',
-              dim: 'rgba(232,93,58,0.12)',
-              glow: 'rgba(232,93,58,0.25)',
-            },
-          },
-        },
-      },
-    };
-  </script>
+  <!-- Tailwind CSS (CLI 빌드 — 사용된 클래스만 추출한 정적 CSS, 런타임 JS 없음) -->
+  <link rel="stylesheet" href="css/tailwind.css" />
   <link rel="stylesheet" href="css/style.css" />
 
   <!-- FOUC 방지: 본문 렌더 전에 저장된 테마를 먼저 적용한다 -->

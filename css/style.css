@@ -11,10 +11,13 @@
   --accent-dim: rgba(232, 93, 58, 0.12);
   --accent-glow: rgba(232, 93, 58, 0.25);
   --text-hi: #f2f2f7;
-  --text-lo: #76768a;
+  --text-lo: #8a8a9e; /* WCAG AA: 모든 다크 배경에서 대비 ≥4.99 */
   --border: rgba(255, 255, 255, 0.07);
   /* 네비게이션 글래스 배경 (모드별 분리) */
   --nav-bg: rgba(9, 9, 13, 0.85);
+  /* 채움 버튼 전용 코랄: 흰 글자와 대비 ≥4.5 (accent 자체는 장식용으로 유지) */
+  --accent-btn: #c44524;
+  --accent-btn-hover: #b83e1f;
 }
 
 /* 라이트 모드: <html>에서 .dark 가 빠졌을 때 변수만 덮어쓴다.
@@ -424,7 +427,7 @@ body::before {
   gap: 0.5rem;
   padding: 0.75rem 1.75rem;
   border-radius: 8px;
-  background: var(--accent);
+  background: var(--accent-btn);
   color: #fff;
   font-weight: 600;
   font-size: 0.9rem;
@@ -435,7 +438,7 @@ body::before {
 }
 
 .btn-primary:hover {
-  background: #d44f2e;
+  background: var(--accent-btn-hover);
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(232,93,58,0.35);
 }

@@ -1,0 +1,5 @@
+/* Tailwind CLI 빌드 입력 파일 → css/tailwind.css 로 생성된다.
+   빌드: npm run build:css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -86,7 +86,7 @@ resume/
 - [ ] 반응형 / 크로스 브라우저 점검
 - [x] 접근성(장식 요소 `aria-hidden`, 프로필 SVG `role`/`aria-label`, `prefers-reduced-motion`) 점검
 - [x] SEO 메타 태그 (`title`, `description`, OG·Twitter 카드, favicon, `theme-color`, `canonical`)
-- [ ] Lighthouse 성능 점검
+- [x] Lighthouse 성능 점검 → 실측 **Perf 99 · A11y 100 · Best Practices 100 · SEO 100** (Tailwind CDN→CLI 전환으로 렌더 차단 제거, 대비 AA 통과)
 - [x] GitHub Pages 배포 (Actions 워크플로) → <https://kevinsung456.github.io/claude-profile/> · SEO 메타 URL 실제 도메인 반영 완료
 
 ---
@@ -105,7 +105,7 @@ resume/
 - [ ] 다국어 지원 (한/영 토글)
 - [ ] 방문자 통계 / 조회수
 - [ ] 블로그 / 포스트 섹션 연동
-- [ ] Tailwind CLI 빌드 환경으로 전환 (CDN → 최적화)
+- [x] Tailwind CLI 빌드 환경으로 전환 (CDN → 최적화) — `npm run build:css` 로 `css/tailwind.css` 생성
 - [ ] 간단한 애니메이션 라이브러리(AOS) 적용
 
 ---
